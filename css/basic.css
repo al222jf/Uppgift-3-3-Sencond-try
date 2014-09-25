@@ -1,13 +1,70 @@
-html, body {
+html, body, ul {
 	padding: 0;
 	margin: 0;
 }
 
 html {
-
+	
 }
 #container {
 	width: 600px;
 	margin: auto;
 	background-color: #50483B;
+	background-image: url('pics/coffey.jpg');
+	background-repeat:no-repeat;
+	background-position: top 20px center;
 }
+
+#topbar {
+	font-family: "Times New Roman", Times, serif;
+	float: right;
+	font-size: 13px;
+	color: #EAE8D3;
+}
+
+#menu {
+	position: relative;
+	top: 208px;
+	left: 10px;	
+	font-family: "Times New Roman", Times, serif;
+}
+
+#menu a {
+	visibility: hidden;
+}
+
+#menu ul {
+
+}
+
+#menu ul li {
+	display: inline-block;
+
+}
+
+#menu ul li a {
+
+	visibility: inherit;
+	display: block;
+	width: 90px;
+	margin: 10px 4px;
+
+	color: #EAE8D3;
+	text-decoration: none;
+	background-color: #787167;
+
+	text-transform: capitalize;
+	text-align: center;
+
+
+}
+
+#content {
+	background-color: #EAE8D3;
+	margin-top: 200px;
+}
+
+#subcontent ul {
+	list-style: none;
+}
+
