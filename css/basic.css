@@ -3,10 +3,6 @@ html, body, ul, li, a {
 	margin: 0;
 }
 
-html {
-	
-}
-
 #container {
 	width: 600px;
 	margin: auto;
@@ -14,6 +10,7 @@ html {
 	background-image: url('pics/coffey.jpg');
 	background-repeat:no-repeat;
 	background-position: top 20px center;
+	border: 1px solid rgba(0, 0, 0, .1);
 }
 
 #topbar {
